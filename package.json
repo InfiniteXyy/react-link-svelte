@@ -1,0 +1,30 @@
+{
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "name": "react-link-svelte",
+  "author": "Yiyang Xu",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InfiniteXyy/react-link-svelte"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "svelte": ">=3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "react": "^17.0.1",
+    "svelte": "^3.31.0",
+    "typescript": "^4.1.3"
+  }
+}
